@@ -18,4 +18,4 @@ resource "azurerm_resource_group" "example2" {
 
 resource "null_resource" "ivan" {}
 
-resource "null_resource" "ivan-import" {}
+resource "random_pet" "ivan-import" {}
