@@ -1,3 +1,3 @@
-list "aws_s3_bucket" "bucket" {
+list "aws_s3_buckets" "bucket" {
   provider = aws
 }
