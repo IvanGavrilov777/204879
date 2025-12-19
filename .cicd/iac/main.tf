@@ -14,8 +14,8 @@ resource "azurerm_resource_group" "example2" {
 
 */
 
-provider "azurerm" {
-features {}
+provider "aws" {
+region = "us-west-1"
 }
 
 resource "null_resource" "ivan" {}
