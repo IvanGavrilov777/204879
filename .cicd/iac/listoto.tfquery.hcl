@@ -1,3 +1,3 @@
-list "azurerm_resource_group" "nullata" {
-  provider = azurerm
+list "aws_s3_bucket" "bucket" {
+  provider = aws
 }
