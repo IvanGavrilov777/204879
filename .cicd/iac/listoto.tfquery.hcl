@@ -1,3 +1,3 @@
-list "random_pet" "nullata" {
-  provider = random
+list "azurerm_resource_group" "nullata" {
+  provider = azurerm
 }
