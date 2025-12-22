@@ -8,12 +8,12 @@ provider "azurerm" {
 features {}
 }
 
-
+/*
 resource "azurerm_resource_group" "example2" {
   name     = "ivexample-import"
   location = "West Europe"
 }
-
+*/
 
 
 provider "aws" {
