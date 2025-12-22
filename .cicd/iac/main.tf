@@ -4,7 +4,9 @@ resource "azurerm_resource_group" "example1" {
   location = "West Europe"
 }
 
-
+provider "azurerm" {
+features {}
+}
 
 
 resource "azurerm_resource_group" "example2" {
